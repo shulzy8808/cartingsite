@@ -1,3 +1,5 @@
+
+
 function viewmore() {
   document.getElementById("content").style.height = "400px";
   document.getElementById("header-3").style.display = "none";
@@ -117,3 +119,9 @@ function updateCartTotal() {
   total = Math.round(total * 100) / 100;
   document.getElementsByClassName("cart-total-price")[0].innerText = "$" + total;
 }
+
+
+
+
+
+
